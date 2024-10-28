@@ -1,0 +1,25 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.fondo_1{
+    
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+.logo-recurso{
+    width: 40rem;
+    height: 35rem;
+    position: absolute;
+    
+    
+}
+.comic-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
