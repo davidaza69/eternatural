@@ -1,0 +1,53 @@
+.tran2{
+    width: 25rem;
+    height: 26.2rem;
+    position: absolute;
+    animation: imagenn 1s infinite;
+    margin-top: 33rem;
+    margin-left: -13rem;
+}
+.tran{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    animation: imagenn1  1s infinite;
+    margin-top: 33rem;
+    margin-left: -13rem;
+}
+
+.imagen{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+.imagen2
+{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    z-index: 2;
+}
+/* animacion 1 */
+@keyframes imagenn {
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+/* animacion 2 */
+@keyframes imagenn1 {
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1);
+        opacity: .100;
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}

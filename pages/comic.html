@@ -1,40 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/comic.css">
-    <title>Comic</title>
-</head>
-<body>
-    <!-- selector de capitulos -->
-
-    <div class="conatainer">
-        <div class="comic-background">
-            <img class="fondo_1" src="../assets/img/fondo SC 1.png" alt=""><!-- imagen o video de fondo -->
-            <div class="comic-elements">
-                <img class="logo-recurso" src="../assets/img/logo rcurso.png" alt="">
-               
-                
-
-
+    <title>Dom-avanzado</title>
+    <link rel="stylesheet" href="../boostrap/bootstrap.css">
+    <link rel="stylesheet" href="../css/style_Comic.css">
+</head> 
+<body class="container-fluid">
+    <div class="instru">
+            <img  src="../assets/img/alerta.png" alt="instrucciones" class="engranaje"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </div>
+    <div class="container_cap ">
+        
+        <!--  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Instrucciones</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex flex-column gap-4">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <img src="../assets/picture/INSTRUCION 1.PNG" alt="instrucion-img1"
+                                class="instrucion-img1">
+                        </div>
+                        <div class="col-lg-9">
+                            <p>
+                                Son botones que al hacer interactuar Inicia Las
+                                animaciones Reproduce Sonidos Y activa lo
+                                globos De diálogos
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <img src="../assets/picture/INSTRUCION 2.PNG" alt="instrucion-img1"
+                                class="instrucion-img2">
+                        </div>
+                        <div class="col-lg-9">
+                            <p>
+                                Al interactuar te permite Te permite avance
+                                entre una Escena y otra del cómic Ubicados a
+                                los laterales
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <img src="../assets/picture/INSTRUCION 3.PNG" alt="instrucion-img1"
+                                class="instrucion-img3">
+                        </div>
+                        <div class="col-lg-9">
+                            <p>
+                                Estos son los globos de texto que aparecen
+                                Después de interactuar con los mismos
+                                Ayudándonos a entender la historia
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- chapter 1 -->
-
-    <div class="conatainer"></div>
-        <div class="comic-background">
-            <img src="" alt=""><!-- imagen o video de fondo -->
-            <div class="comic-elements">
-                
-            </div>
-        </div>
     </div>
-    
 
 
-    <script src="../js/comic.js"></script>
 </body>
+<script src="../boostrap/bootstrap.js"></script>
+<script src="../js/capitulosbd.js"></script>
+<script src="../js/app.js"></script>
 </html>

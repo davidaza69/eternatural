@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container_cap{
+    background-image: url(../assets/img/fondo-caps.png);
+    
+    border: 0.5rem solid  rgba(0, 0, 0, 0.361);
+    width: 118.5rem;
+    height: 59.6rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 2rem;
+    border: 0.5rem solid rgb(159, 159, 159);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.disabled{
+    opacity: .5;
+    cursor: no-drop;
+    filter: blur(1.5px) ;
+}
+
+#num{
+    color: aqua;
+    font-size: 6rem;
+}
+.numero{
+    display: none;
+}
+
+.engranaje{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 85%;
+
+}
