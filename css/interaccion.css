@@ -1,43 +1,39 @@
-.tran2{
-    width: 25rem;
-    height: 26.2rem;
-    position: absolute;
-    animation: imagenn 1s infinite;
-    margin-top: 33rem;
-    margin-left: -13rem;
-}
+
 .tran{
     width: 25rem;
     height: 25rem;
     position: absolute;
     animation: imagenn1  1s infinite;
-    margin-top: 33rem;
-    margin-left: -13rem;
+    margin-top: 90%;
+    margin-left: 100%;
+}
+.tran2{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    animation: imagenn1  1s infinite;
+    margin-top: 5rem;
+    margin-left: -40rem;
+    
 }
 
-.imagen{
-    margin-top: 0.5rem;
-    margin-left: 2rem;
-    z-index: 2;
-}
 .imagen2
 {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
     margin-top: 0.5rem;
     margin-left: 2rem;
-    z-index: 2;
 }
-/* animacion 1 */
-@keyframes imagenn {
-    0%{
-        transform: scale(1.2);
-    }
-    50%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(1.2);
-    }
+.imagen3
+{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
 }
+
+
 /* animacion 2 */
 @keyframes imagenn1 {
     0%{
@@ -51,3 +47,13 @@
         transform: scale(1.2);
     }
 }
+
+.escondericono{
+    display: none;
+}
+
+.escondericono2{
+    display: none;
+}
+
+

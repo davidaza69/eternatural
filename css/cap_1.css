@@ -4,11 +4,8 @@
 }
 body{
     width: 100%;
-    height: 120vh;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 130vh;
+   
 }
 .carousel{
     width: 80%;
@@ -23,34 +20,52 @@ body{
 } 
 .fondo2{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
-    background-image: url(../assets/img_fondo1/fondo_escara_2.png);
-    display: flex;
-} 
+    background-image: url(../assets/img_fondo1_real/fondo_escena_1-2.png)
+}
+
 .carousel-control-prev-icon{
     background-image: url(../assets/img_fondo1_real/boton_izq.png);
-    width: 50%;
-    height: 20rem;
+    width: 60%;
+    height: 19rem;
     background-size: cover;
 }
 .carousel-control-next-icon{
     background-image: url(../assets/img_fondo1_real/boton_der.png);
-    width: 50%;
-    height: 20rem;
+    width: 60%;
+    height: 19rem;
     background-size: cover;
 
 }
-.texto_cap1 { 
-    width: 40%;
-    height: 21vh;
-    position: absolute;
-    z-index: 2;
+.texto_cap1{
+    background-image: url(../assets/img_fondo1_real/texto_cap1-1.png);
+    width: 100%;
+    height: 23vh;
     background-size: cover;
-    margin-top: -45rem;
-    margin-left: -64rem;
     display: flex;
-    opacity: 80%;
+}
+.boton-inicio{
+    position: relative;
+    width: 50%;
     
-  
+}
+
+video{
+    width: 100%;
+    height: 90vh;
+    display: none;
+}
+
+/* animacion fondo 1-2 */
+
+.emma_camina {
+    margin-left: 1rem;
+    margin-top: 23rem;
+    animation: emma_camina 0.1s linear;
+    transition: transform 2s ease; /* Transición suave */
+}
+
+#num{
+    display: none;
 }
